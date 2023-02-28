@@ -1,10 +1,10 @@
 module.exports = {
-	parser: 'babel-eslint',
+	parser: '@babel/eslint-parser',
 	env: {
 		browser: true,
 		es2021: true,
 	},
-	extends: ['eslint:recommended', 'react-app', 'prettier'],
+	extends: ['eslint:recommended', 'prettier'],
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true,
